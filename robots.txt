@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+Allow: /gallery.php
+Allow: /about.php
+Allow: /artists.php
+Allow: /exhibitions.php
+Allow: /contacts.php
+Allow: /index.php
+
+Sitemap: http://www.eastafricaartbiennale.org/sitemap.xml
