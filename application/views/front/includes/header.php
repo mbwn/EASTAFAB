@@ -85,16 +85,16 @@
 			<div class="container">
 				
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="<?php echo base_url();?>index.php/Home/">The East Africa Art Biennale</a></div>
+						<div id="fh5co-logo"><a href="<?php echo base_url();?>/Home/">The East Africa Art Biennale</a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="<?php echo base_url();?>index.php/Home/">Home</a></li>
-							<li><a href="<?php echo base_url();?>index.php/Home/gallery">Gallery</a></li>
-							<li><a href="<?php echo base_url();?>index.php/Home/about">About</a></li>
-							<li><a href="<?php echo base_url();?>index.php/Home/artists">Artists</a></li>
+							<li class="active"><a href="<?php echo base_url();?>/Home/">Home</a></li>
+							<li><a href="<?php echo base_url();?>/Home/gallery">Gallery</a></li>
+							<li><a href="<?php echo base_url();?>/Home/about">About</a></li>
+							<li><a href="<?php echo base_url();?>/Home/artists">Artists</a></li>
 							<li class="has-dropdown">
-								<a href="<?php echo base_url();?>index.php/Home/exhibitions">Exhibitions</a>
+								<a href="<?php echo base_url();?>/Home/exhibitions">Exhibitions</a>
 								<ul class="dropdown">
 									<li><a href="#">Biennale 2011</a></li>
 									<li><a href="#">Biennale 2013</a></li>
@@ -102,7 +102,7 @@
 									<li><a href="#">Biennale 2017</a></li>
 								</ul>
 							</li>
-							<li><a href="<?php echo base_url();?>index.php/Home/contact">Contact</a></li>
+							<li><a href="<?php echo base_url();?>/Home/contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
