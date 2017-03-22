@@ -1,19 +1,3 @@
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Gallery</h1>
-<!--							<h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	
 	<div id="fh5co-gallery">
 		<div class="container">
 			<div class="row">
@@ -26,95 +10,149 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">         
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_kwaduo.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Painting<br> Medium: Acrylic on Canvas</span>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_kwaduo.jpg" alt="Kwaduo, Painting" style="width:318px; height: 400px;">
+									<span>Painting</span>
 									<h2>Kwaduo</h2>
-								</div>
-							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_lmwambo.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_lmwambo.jpg" alt="L. Mwambo, Painting" style="width:318px; height: 400px;">
+							
 									<span>Painting</span>
 									<h2>L. Mwambo</h2>
-								</div>
-							</a>
+								
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/YusuphKatanov.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/YusuphKatanov.jpg" alt="Yusuph Kutanov, Painting" style="width:318px; height: 400px;">	
+								
 									<span>Painting</span>
 									<h2>Yusuph Kutanov</h2>
-								</div>
-							</a>
+							
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_brainstorming.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Brainstorming</span>
-									<h2>Vivien (France)</h2>
-								</div>
-							</a>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+							<img class="myImg" src="<?php echo base_url();?>images/gallery_brainstorming.jpg" alt="Vivien, Brainstorming" style="width:318px; height: 400px;">
+						
+									<span>Brainstorming</span>
+									<h2>Vivien</h2>
+							
 						</li>
 
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_people_of_burundi.jpg); "> 
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Batwa People of Burundi</span>
+						<li class="one-third animate-box" data-animate-effect="fadeIn"> 
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_people_of_burundi.jpg" alt="Vivien, Brainstorming" style="width:318px; height: 400px;">
+							
+									<span>Batwa People of Burundi</span>
 									<h2>Benson Ntamagendero</h2>
-								</div>
-							</a>
+							
 						</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_rail_dream.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Rail Dreams</span>
+							<li class="one-third animate-box" data-animate-effect="fadeIn">
+							<img class="myImg" src="<?php echo base_url();?>images/gallery_rail_dream.jpg" alt="Titus Pelembe, Rail Dreams" style="width:318px; height: 400px;">
+							
+									<span>Rail Dreams</span>
 									<h2>Titus Pelembe</h2>
-								</div>
-							</a>
+							
 						</li>
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_uswahilini.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Uswahilini</span>
-									<h2>Atsu Numadzi (Ghana)</h2>
-								</div>
-							</a>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_uswahilini.jpg" alt="Atsu Numadzi, Uswahilini" style="width:318px; height: 400px;">
+						
+									<span>Uswahilini</span>
+									<h2>Atsu Numadzi</h2>
+							
 						</li>
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_parents_care.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Parents Care</span>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_parents_care.jpg" alt="Ayoub Makotha, Parents Care" style="width:318px; height: 400px;">
+							
+									<span>Parents Care</span>
 									<h2>Ayoub Makotha</h2>
-								</div>
-							</a>
+								
 						</li>
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_duo_musician.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Duo Musician</span>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_duo_musician.jpg" alt="Boniface Mwirue, Duo Musician" style="width:318px; height: 400px;">
+							
+									<span>Duo Musician</span>
 									<h2>Boniface Mwirue</h2>
-								</div>
-							</a>
+							
 						</li>
 						
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery_duma.jpg); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Title: Duma</span>
+						<li class="one-third animate-box" data-animate-effect="fadeIn">
+						<img class="myImg" src="<?php echo base_url();?>images/gallery_duma.jpg" alt="Mac Sawaya, Duma" style="width:318px; height: 400px;">
+							
+									<span>Duma</span>
 									<h2>Mac Sawaya</h2>
-								</div>
-							</a>
+							
 						</li>
 					
 					</ul>		
 				</div>
 			</div>
 		</div>
+		
+<!--		Model-->
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="img01" class="modal-content">
+            <div id="caption"></div> 
+        </div>
+        
+       
 	</div>
+	
+<script>
+    var modal = document.getElementById('myModal');
+    
+    var img = document.getElementsByClassName('myImg');
+    
+    var modalImg = document.getElementById("img01");
+    
+    var captionText = document.getElementById("caption");
+    
+//    img.onclick = function(){
+//        modal.style.display = "block";
+//        modalImg.src = this.src;
+//        captionText.innerHTML = this.alt;
+//    }
+    
+    
+        
+    $('.myImg').on('click', function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+  
+  });
+    
+    var span = document.getElementsByClassName("close")[0];
+    
+    span.onclick = function(){
+        modal.style.display = "none";
+    }
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

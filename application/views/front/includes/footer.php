@@ -3,20 +3,24 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
-					<h3>The East Africa Art Biennale.</h3>
+					<h3>The East Africa Art Biennale Association</h3>
                     <p>The 8<sup>th</sup> Biennale will be held from <b>November 2<sup>nd</sup> to 22<sup>nd</sup>, 2017</b> in Dar es Salaam.</p>
-					<p><a class="btn btn-primary" href="#">Download Application Form</a></p>
+				<p><a a href="<?php echo base_url();?>files/Application form.pdf" download class="btn btn-primary">Application Form</a></p>
+							
+				<p><a a href="<?php echo base_url();?>files/Fomu ya Maombi.pdf" download class="btn btn-primary">Fomu ya Maombi</a></p>
+							
+				<p><a a href="<?php echo base_url();?>files/Formulaire de participation French.pdf" download class="btn btn-primary">Formulaire de participation</a></p>
 				</div>
 				<div class="col-md-8">
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<ul class="fh5co-footer-links">
-							<li><a href="#">Biennale 2011</a></li>
-							<li><a href="#">Biennale 2013</a></li>
-							<li><a href="#">Biennale 2015</a></li>
-							<li><a href="#">Biennale 2017</a></li>
+							<li><a href="<?php echo base_url();?>exhibition/exhibition2011">Exhibition 2011</a></li>
+							<li><a href="<?php echo base_url();?>exhibition/exhibition2013">Exhibition 2013</a></li>
+							<li><a href="<?php echo base_url();?>exhibition/exhibition2015">Exhibition 2015</a></li><li><a href="<?php echo base_url();?>exhibition/exhibition2017">Exhibition 2017</a></li>
 						</ul>
 					</div>
 
+<!--
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<ul class="fh5co-footer-links">
 							<li><a href="#">Tanzania</a></li>
@@ -26,6 +30,7 @@
 							<li><a href="#">Burundi</a></li>
 						</ul>
 					</div>
+-->
 				</div>
 			</div>
 

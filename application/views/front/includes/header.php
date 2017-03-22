@@ -21,6 +21,11 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
+	
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="<?php echo base_url();?>images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url();?>images/favicon.ico" type="image/x-icon">
+	
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 	
@@ -59,7 +64,98 @@
     
     <!--Google Analytics-->
    
-    <script src='<?php echo base_url();?>assets/js/analyticstracking.js' type="text/javascript"></script>    
+    <script src='<?php echo base_url();?>assets/js/analyticstracking.js' type="text/javascript"></script>
+    
+    <style>
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,1); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>   
+        
+            
+                
+                        
     
 	</head>
 	<body>
@@ -85,24 +181,24 @@
 			<div class="container">
 				
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="<?php echo base_url();?>/Home/">The East Africa Art Biennale</a></div>
+						<div id="fh5co-logo"><a href="<?php echo base_url();?>home">The East Africa Art Biennale Association</a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="<?php echo base_url();?>/Home/">Home</a></li>
-							<li><a href="<?php echo base_url();?>/Home/gallery">Gallery</a></li>
-							<li><a href="<?php echo base_url();?>/Home/about">About</a></li>
-							<li><a href="<?php echo base_url();?>/Home/artists">Artists</a></li>
+							<li class="active"><a href="<?php echo base_url();?>home">Home</a></li>
+							<li><a href="<?php echo base_url();?>gallery">Gallery</a></li>
+							<li><a href="<?php echo base_url();?>about">About Us</a></li>
+							<li><a href="<?php echo base_url();?>artists">Artists</a></li>
 							<li class="has-dropdown">
-								<a href="<?php echo base_url();?>/Home/exhibitions">Exhibitions</a>
+								<a href="<?php echo base_url();?>exhibition">Exhibitions</a>
 								<ul class="dropdown">
-									<li><a href="#">Biennale 2011</a></li>
-									<li><a href="#">Biennale 2013</a></li>
-									<li><a href="#">Biennale 2015</a></li>
-									<li><a href="#">Biennale 2017</a></li>
+									<li><a href="<?php echo base_url();?>exhibition/exhibition2011">Biennale 2011</a></li>
+									<li><a href="<?php echo base_url();?>exhibition/exhibition2013">Biennale 2013</a></li>
+									<li><a href="<?php echo base_url();?>exhibition/exhibition2015">Biennale 2015</a></li>
+									<li><a href="<?php echo base_url();?>exhibition/exhibition2017">Biennale 2017</a></li>
 								</ul>
 							</li>
-							<li><a href="<?php echo base_url();?>/Home/contact">Contact</a></li>
+							<li><a href="<?php echo base_url();?>contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>

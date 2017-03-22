@@ -21,17 +21,13 @@
 					<h2>Page Content Under Construction</h2>
 
 				</div>
-			</div>
-			
-			
-           
-          
+			</div>         
 		</div>
 	</div>
+<!--
 	<div class="container">
-	        
-              <div class="row">
-				<div class="col-md-4 col-sm-4 animate-box">
+        
+				<div class="artist col-md-4 col-sm-4 animate-box">
                   <a href="">
                     <div class="head" style="background-image: url(images/About-Goscinny.jpg);">
                     </div>  
@@ -40,11 +36,10 @@
                     <h3>Diamond Platnumz</h3>
                     <span>Tanzania</span>
                     </div>
-             
-             
                   </div>
-            </div>
+				
+    </div>
               
-                </div>
+-->
       
 

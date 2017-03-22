@@ -23,7 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8888/EASTAFAB/';
+$config['base_url'] = 'http://localhost:8888/EASTAFAB';
+//$config['base_url'] = 'http://eastafricaartbiennale.org/';
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +37,7 @@ $config['base_url'] = 'http://localhost:8888/EASTAFAB/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'home';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +326,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'Ye$MyN4m3iSDaUd1B4$h!T£';
 
 /*
 |--------------------------------------------------------------------------

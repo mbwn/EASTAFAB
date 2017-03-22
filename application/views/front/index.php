@@ -6,7 +6,11 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>The 8<sup>th</sup> East Africa Art Biennale 2017</h1>
-							<p><a a href="file/formx.pdf" download class="btn btn-primary">Download Application Form</a></p>
+							<p><a a href="<?php echo base_url();?>files/Application form.pdf" download class="btn btn-primary">Application Form</a></p>
+							
+							<p><a a href="<?php echo base_url();?>files/Fomu ya Maombi.pdf" download class="btn btn-primary">Fomu ya Maombi</a></p>
+							
+							<p><a a href="<?php echo base_url();?>files/Formulaire de participation French.pdf" download class="btn btn-primary">Formulaire de participation</a></p>
 						</div>
 					</div>
 				</div>
@@ -22,42 +26,39 @@
                     
                     
                     
-                    <p style="text-align:justify;">The EASTAFAB was founded in 2003 with the sole aim of promoting visual arts in East Africa. It is registered by the National Arts Council (Baraza la Sanaa la Taifa - BASATA) under the certificate No.BST/1325. It is a non-governmental and non-profit association run on a voluntary basis. The present local Organizing Committee in Tanzania is made up of the following volunteers:</p>
+                    <p style="text-align:justify;">The EASTAFAB was founded in 2003 with the sole aim of promoting visual arts in East Africa. It is registered by the National Arts Council (Baraza la Sanaa la Taifa - BASATA) under the certificate No. BST/1325. It is a non-governmental and non-profit association run on a voluntary basis. The present local Organizing Committee in Tanzania is made up of the following volunteers:</p>
 
 
-<p style="text-align:justify;">Prof. Elias Jengo – Chairman, 
+<p style="text-align:justify;"><b>Prof. Elias Jengo – Chairman,</b> 
                            
-                           <span id="contact">Dept. of Creative Arts <br>
+                           <span id="contact">Dept. of Creative Arts, 
                            University of Dar es Salaam<br>
                            Cell: +255 715 946 100 / 0784 946 100<br>
                            E-mail: profjengo@gmail.com</span></p>
 
-<p style="text-align:justify;">Dr. Kiagho Kilonzo – Executive Director,
-                       <span id="contact"> Dept. of Creative Arts<br>
+<p style="text-align:justify;"><b>Dr. Kiagho Kilonzo – Executive Director,</b>
+                       <span id="contact"> Dept. of Creative Arts, 
                         University of Dar es Salaam.<br>     Cell : +255 713 955 784<br>
                         E-mail: kiaghokilonzo@gmail.com</span></p>
 
-<p style="text-align:justify;">Dr. Yves Goscinny – International Liaison Coordinator, 
+<p style="text-align:justify;"><b>Dr. Yves Goscinny – International Liaison Coordinator, </b>
                         <span id="contact"> E-mail: ygoscinny@hotmail.com </span></p>
 
-<p style="text-align:justify;">Mr. Robert Mwampembwa– Media and Marketing Manager          
+<p style="text-align:justify;"><b>Mr. Robert Mwampembwa – Media and Marketing Manager </b>         
                          <span id="contact">Cell: +255 717 072 399<br>
                           E-mail: rajuwetu@gmail.com</span></p>
 
-<p style="text-align:justify;">Mr. Stephen Ndibalema     - Programmes Coordinator
+<p style="text-align:justify;"><b>Mr. Stephen Ndibalema - Programmes Coordinator</b>
 
                              <span id="contact">Cell: +255 713 217 761<br>
                             E-mail:smutagahwa47@gmail.com</span></p>
 
-<p style="text-align:justify;">Mr. Nadir Tharani           - Member
+<p style="text-align:justify;"><b>Mr. Nadir Tharani - Member</b>
                             <span id="contact">Cell: +255 784 915 305</span></p>
+               
+<p style="text-align:justify;"><b>Ms. Elizabeth Mussa – Administrative Assistant</b></p>
 
-                
-                
-                
-<p style="text-align:justify;">Ms. Elizabeth Mussa – Administrative Assistant</p>
-
-<p style="text-align:justify;">Ms. Uwera Fabiola          - Trainee Public Relations Coordinator
+<p style="text-align:justify;"><b>Ms. Uwera Fabiola - Trainee Public Relations Coordinator</b>
                               <span id="contact"> Cell:+255-657535104,    +255-788266460<br>
                                E-mail: rutamu77@gmail.com</span></p>
 
@@ -80,8 +81,6 @@ Chairman.</p>
 			</div>
 		</div>
 	</div>
-
-	
 	
 	<div id="fh5co-schedule" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);">
 		<div class="container">
@@ -95,11 +94,7 @@ Chairman.</p>
 			</div>
 		</div>
 	</div>
-        
-      
-        
-        
-		<div class="container">
+	<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Sponsors</h2>
@@ -109,44 +104,152 @@ Chairman.</p>
 			
 			  
         <!-- Logo Content -->
+<!--
    
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="https://www.goethe.de/ins/ts/en/index.html">
+           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="https://www.goethe.de/ins/ts/en/index.html" target="_blank" >
                     <img class="img-responsive" src="images/sponsors/Goethe-Institut.png" alt="Goethe Institut">
                 </a>
             </div>
              
              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="https://www.giz.de/en/worldwide/347.html">
+                <a class="thumbnail" href="https://www.giz.de/en/worldwide/347.html" target="_blank">
                     <img class="img-responsive" src="images/sponsors/GIZ.jpeg" alt="GIZ">
                 </a>
             </div>
              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="http://nafasiartspace.org/">
+                <a class="thumbnail" href="http://nafasiartspace.org/" target="_blank">
                     <img class="img-responsive" src="images/sponsors/nafasi.jpg" alt="Nafasi Art Space">
                 </a>
             </div>   
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="http://tanzania.um.dk/en/danida-en">
+                <a class="thumbnail" href="http://tanzania.um.dk/en/danida-en" target="_blank">
                     <img class="img-responsive" src="images/sponsors/denmark-danida.jpg" alt="Denmark Embassy">
                 </a>
             </div>
            
             
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="http://www.daressalam.diplo.de/">
+                <a class="thumbnail" href="http://www.daressalam.diplo.de/" target="_blank">
                     <img class="img-responsive" src="images/sponsors/german_embassy.jpg" alt="German Embassy">
                 </a>
             </div> 
             
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="http://eacgermany.org/incubator-for-integration-and-development-in-east-africa-iidea/">
-                    <img class="img-responsive" src="images/sponsors/iidea.jpg" alt="IIDEA logo">
+                <a class="thumbnail" href="http://afdar.com/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-dsm.jpg" alt="Alliance Francais Dar es Salaam">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="https://www.udsm.ac.tz/">
-                    <img class="img-responsive" src="images/sponsors/UDSM.jpg" alt="University of Dar es Salaam">
+                <a class="thumbnail" href="/" onclick="return false;" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-kigali.jpg" alt="Alliance Francais Kigali">
                 </a>
             </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="http://www.alliancefrnairobi.org/nairobi/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-nairobi.jpg" alt="Alliance Francais Nairobi">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="http://ifburundi.org/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/institut-bujumbura.jpg" alt="Institut Francais Bujumbura">
+                </a>
+            </div><div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="http://afkampala.org/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-kampala.jpg" alt="Alliance France Kampala">
+                </a>
+            </div>
+            
 		</div>
+		
+	
+-->
+
+
+<!--Logo Table-->
+
+    
+    
+<table class="table">
+ 
+  <tbody>
+    <tr>
+      
+      <td>  <a href="https://www.goethe.de/ins/ts/en/index.html" target="_blank" >
+                    <img class="img-responsive" src="images/sponsors/Goethe-Institut.png" alt="Goethe Institut" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>
+            <a  href="https://www.giz.de/en/worldwide/347.html" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/GIZ.jpeg" alt="GIZ" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>  
+           <a href="http://nafasiartspace.org/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/nafasi.jpg" alt="Nafasi Art Space" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>  
+          <a href="http://tanzania.um.dk/en/danida-en" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/denmark-danida.jpg" alt="Denmark Embassy" style="width:150px; height:150px;">
+                </a>
+                </td>
+      <td>  
+             <a href="http://www.daressalam.diplo.de/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/german_embassy.jpg" alt="German Embassy" style="width:150px; height:150px;">
+            </a>
+     </td>  
+    </tr>
+
+    <tr>
+      
+      <td>  
+            <a  href="http://afdar.com/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-dsm.jpg" alt="Alliance Francais Dar es Salaam" style="width:150px; height:150px;">
+            </a>
+      </td>
+      <td>
+             <a  href="/" onclick="return false;" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-kigali.jpg" alt="Alliance Francais Kigali" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>  
+           <a  href="http://www.alliancefrnairobi.org/nairobi/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-nairobi.jpg" alt="Alliance Francais Nairobi" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>  
+             <a  href="http://ifburundi.org/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/institut-bujumbura.jpg" alt="Institut Francais Bujumbura" style="width:150px; height:150px;">
+                </a>
+      </td>
+      <td>  
+               <a  href="http://afkampala.org/" target="_blank">
+                    <img class="img-responsive" src="images/sponsors/alliance-france-kampala.jpg" alt="Alliance France Kampala" style="width:150px; height:150px;">
+                </a>
+     </td>  
+    </tr>
+
+  </tbody>
+</table>
+
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

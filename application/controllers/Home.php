@@ -22,57 +22,6 @@ class Home extends CI_Controller{
    
         }
     
-        public function gallery()
-        {
-            $this->load->view('front/includes/header',$this->data);
-            $this->load->view('front/gallery');
-            $this->load->view('front/includes/footer',$this->data);
-            
-        }
-    
-        public function about()
-        {
-            $this->load->view('front/includes/header',$this->data);
-            $this->load->view('front/about');
-            $this->load->view('front/includes/footer',$this->data);
-            
-        }
-    
-        public function artists()
-        {
-            $this->load->view('front/includes/header',$this->data);
-            $this->load->view('front/artists');
-            $this->load->view('front/includes/footer',$this->data);
-            
-        }
-    
-    
-        public function exhibitions()
-        {
-            $this->load->view('front/includes/header',$this->data);
-            $this->load->view('front/exhibitions');
-            $this->load->view('front/includes/footer',$this->data);
-            
-        }
-    
-    
-        public function contact()
-        {
-            $this->load->view('front/includes/header',$this->data);
-            $this->load->view('front/contact');
-            $this->load->view('front/includes/footer',$this->data);
-            
-        }
-    
     }
-
-
-
-
-
-
-
-
-
 
 ?>
